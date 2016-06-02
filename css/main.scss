@@ -20,7 +20,8 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $background-color: #FEFCF9;
 $brand-color:      #D20B16;
-$brand-color-dark: darken($brand-color, 20%);
+$brand-color-light: lighten($brand-color, 25%);
+$brand-color-dark: darken($brand-color, 25%);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -47,7 +48,7 @@ $on-desktop:	   1024px;
         @content;
     }
 }
-@mixin media-query-mininum($device) {
+@mixin media-query-minimum($device) {
     @media screen and (min-width: $device + 1px) {
         @content;
     }

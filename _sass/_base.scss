@@ -117,13 +117,18 @@ a {
     text-decoration: none;
     transition: 0.4s;
 
-    &:visited {
-        color: darken($brand-color, 15%);
+    &:hover {
+        color: $brand-color-light;
+        text-decoration: underline;
+
+        img {
+            filter:brightness(1.3);
+            -webkit-filter:brightness(1.3);
+        }
     }
 
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
+    img {
+        transition: 0.4s;
     }
 }
 
@@ -218,12 +223,24 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 20px;
+        height: 20px;
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $brand-color;
+            transition: 0.4s;
+        }
+    }
+
+    &:hover {
+
+        > svg {
+
+            path {
+                fill: $brand-color-light;
+            }
+
         }
     }
 }
