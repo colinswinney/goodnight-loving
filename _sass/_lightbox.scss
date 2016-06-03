@@ -1,6 +1,6 @@
 /* Preload images */
 body:after {
-  content: url(../img/assets/close.png) url(../img/assets/loading.gif) url(../img/assets/prev.png) url(../img/assets/next.png);
+  content: url(../img/assets/close.png) url(../img/assets/loading_icon_32.gif) url(../img/assets/prev.png) url(../img/assets/next.png);
   display: none;
 }
 
@@ -75,7 +75,7 @@ body.lb-disable-scrolling {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../img/assets/loading.gif) no-repeat;
+  background: url(../img/assets/loading_icon_32.gif) no-repeat;
 }
 
 .lb-nav {

@@ -1,7 +1,7 @@
 <!-- image underlay -->
 <div class="header-underlay" style="
 {% if page.image %}
-    background-image:url('{{ page.image }}');
+    background-image:url('{{ site.baseurl }}/{{ page.image }}');
 {% endif %}
 {% if page.background_position %}
     background-position: {{ page.background_position }};
@@ -19,9 +19,10 @@
       <a href="#" class="menu-icon">
         {% include icon-hamburger.svg %}
       </a>
-
+      
+      {% assign pages = site.pages | sort:"weight"  %}
       <div class="trigger">
-        {% for my_page in site.pages %}
+        {% for my_page in pages %}
           {% if my_page.title %}
           <a class="page-link {% if my_page.url == page.url %}active{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
@@ -32,9 +33,9 @@
   </div>
 
   {% if page.title %}
-    <h2 class="header-page-title">{{ page.title }}</h2>
+    <h2 class="site-header-page-title">{{ page.title }}</h2>
     {% else %}
-    <h2 class="header-page-title">{{ site.title }}</h2>
+    <h2 class="site-header-page-title">{{ site.title }}</h2>
   {% endif %}
 
 </header>

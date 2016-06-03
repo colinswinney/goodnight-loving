@@ -18,10 +18,13 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #FEFCF9;
+$background-color: #FAF9F6;// FBF7EC
 $brand-color:      #D20B16;
 $brand-color-light: lighten($brand-color, 25%);
-$brand-color-dark: darken($brand-color, 25%);
+$brand-color-dark: darken($brand-color, 20%);
+$brand-blue:       #2A637D;
+$brand-blue-light: lighten($brand-blue, 25%);
+$brand-blue-dark:  darken($brand-blue, 10%);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -60,6 +63,8 @@ $on-desktop:	   1024px;
 @import
         "base",
         "layout",
+        "pages_and_archives",
+        "single_posts",
         "syntax-highlighting",
         "lightbox"
 ;

@@ -1,0 +1,207 @@
+/**
+ * Page content
+ */
+.page-content {
+    background-color:$brand-blue;
+
+    .wrapper {
+        background-color: $background-color;
+        padding: 0 $spacing-unit;
+    }
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin: 0;
+    list-style: none;
+    text-align: center;
+
+    > li {
+        display: inline-block;
+        width:200px;
+        margin:0 15px;
+        vertical-align: top;
+
+        &:first-of-type {
+            margin-left:0;
+        }
+
+        &:last-of-type {
+            margin-right:0;
+        }
+
+        .post-list-image {
+            display: inline-block;
+            height: 150px;
+            width:200px;
+            background-size:cover;
+            background-position:50% 50%;
+
+            &:hover {
+                box-shadow:0px 0px 30px $brand-blue-dark;
+            }
+        }
+
+        @include media-query($on-laptop) {
+            margin:$spacing-unit auto $spacing-unit / 2;
+            width: 100%;
+
+            &:first-of-type {
+                margin-top:0;
+            }
+
+            &:last-of-type {
+                margin-bottom:0;
+            }
+        }
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+    text-align:center;
+    margin: 0;
+}
+
+.post-link {
+    display: block;
+}
+
+
+
+
+
+// BLOG POST LIST
+.blog-post-list {
+
+    @include media-query ($on-palm) {
+        .post-link {
+            margin:$spacing-unit / 3 auto 0;
+        }
+
+        li {
+            margin:0;
+            padding:$spacing-unit 0;
+            border-bottom:1px solid $grey-color-light;
+
+            &:first-of-type {
+                padding:0 0 $spacing-unit 0;
+            }
+        }
+    }
+
+    @include media-query-minimum ($on-palm) {
+        margin-bottom: 0;
+        text-align:left;
+
+        .post-meta {
+            margin-bottom: $spacing-unit / 2;
+            display: block;
+            text-align: left;
+        }
+
+        p {
+            margin-bottom: $spacing-unit / 2;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin:0;
+        }
+        li {
+            margin:0;
+            padding:$spacing-unit 0;
+            width:100%;
+            display: inline-block;
+            border-bottom:1px solid $grey-color-light;
+
+            &:first-of-type {
+                padding:0 0 $spacing-unit 0;
+            }
+
+            .blog-post-list-image {
+                width: 40%;
+                height: 200px;
+                float:left;
+                margin-right:$spacing-unit / 2;
+            }
+        }
+    }
+
+    @include media-query-minimum ($on-laptop) {
+        
+        h2 {
+            font-size: 3em;
+        }
+        li {
+
+            .blog-post-list-image {
+                width: 50%;
+            }
+        }
+    }
+    
+}
+
+
+
+
+// MUSIC POST LIST
+.music-post-list {
+    
+    > li {
+        width:150px;
+        margin:0 $spacing-unit;
+        vertical-align: top;
+        min-height: 280px;
+
+        &:first-of-type {
+            margin-left:$spacing-unit;
+        }
+
+        &:last-of-type {
+            margin-right:$spacing-unit;
+        }
+
+        .post-meta {
+            text-align:center;
+            margin: 0;
+            display: block;
+        }
+
+        .post-list-image {
+            display: inline-block;
+            height: 150px;
+            width:150px;
+            background-size:cover;
+            background-position:50% 50%;
+
+            &:hover {
+                box-shadow:0px 0px 30px $brand-blue-dark;
+            }
+        }
+
+        @include media-query($on-palm) {
+            margin:$spacing-unit auto $spacing-unit / 2;
+            width: 100%;
+            min-height: 0;
+
+            .post-link {
+                margin:0;
+            }
+
+            &:first-of-type {
+                margin:0 auto $spacing-unit / 2;
+            }
+
+            &:last-of-type {
+                margin:$spacing-unit auto $spacing-unit / 2;
+            }
+        }
+    }
+
+}

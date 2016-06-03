@@ -9,6 +9,19 @@
 
     <div class="page-content">
       <div class="wrapper">
+
+        {% if page.title %}
+        <div class="breadcrumb-wrapper">
+        <p>
+          <a href="{{ site.baseurl }}/">Home</a>
+          {% if page.categories %}
+          <span>|</span> <a href="{{ site.baseurl }}/{{ page.categories }}">{{ page.categories }}</a>
+          {% endif %}
+          <span>|</span> {{ page.title }}
+        </p>
+        </div>
+        {% endif %}
+
         {{ content }}
       </div>
     </div>

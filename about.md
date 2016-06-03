@@ -2,14 +2,19 @@
 layout: page
 title: About
 permalink: /about/
+image: /img/optimized/kevin-basement.jpg
+weight: 1
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<a href="../img/optimized/early-years-group-shot.jpg" data-lightbox="the_band" data-title="The Early Years">
+<img class="about-page-image right" src="../img/optimized/early-years-group-shot.jpg " alt="The Early Years"></a>Goodnight Loving smooth the edges of wild basement punk into something more organic, twangy and irresistibly catchy - effortlessly weaving country, garage rock, folk and pop into a sound all their own. Hailing from rustic Northwoods Wisconsin hamlets, the members converged on Milwaukee in the early 2000s and established themselves as one of a growing number of bands thriving in the basement scene. Their demo caught the ear of Greg Cartwright (Reigning Sound, Oblivians, Mary Weiss), leading him to produce their debut album "Cemetery Trails," a slick, stunning record showcasing their knack for beautiful, passionate pop perfection. Just weeks after "Cemetery Trails" was recorded, and months before its release, the band headed up north the record another set of songs in the more relaxed confines of a remote cabin. The resulting sessions produced their second full-length "Crooked Lake" - a twist to their sound, featuring a decidedly more lo-fi approach paired with a darker edge to their lyrics, rendering a fitting mood to the times with themes of paranoia, melancholy, and desperation.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Despite gathering many prestigious accolades ("Cemetery Trails" was named album of the year by CMJ New Music Monthly's Editor-in-chief, while "Crooked Lake" drew even more recognition and acclaim), the band isn't content treading the same territory, opting instead to challenge both its listeners and themselves by continuing to grow in unpredictable ways. Goodnight Loving's self-titled third album adds 60's girl group vocal harmonies and British Invasion psychedelia, while also bridging the gap between the recording styles of the preceding LPs. The result is a band hitting its stride, maturing in their ability to manipulate the subtle nuances of their unique and timeless sound.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+<a href="../img/optimized/colin-luckenbach.jpg" data-lightbox="the_band" data-title="Luckenbach, Texas">
+<img class="about-page-image right" src="../img/optimized/colin-luckenbach.jpg " alt="Luckenbach, Texas"></a>"The Goodnight Loving Supper Club" is another milestone in that legend, expanding on their already classic sound of country- and folk-laced rock ‘n roll by forging head-long into psychedelia, surf, spaghetti western, and anything else exotic enough to send your neurons into an electrified dance of pop induced pleasure. With this their fourth album, Goodnight Loving follow in the footsteps of The Great American Rock & Roll Bands (ie. CCR, The Hawks, Crazy Horse, Big Star, The Replacements et al), reimagining the conventions of our native rock n' roll in a way that's both fresh and timeless. "The Goodnight Loving Supper Club" is the band’s first record as a four piece, yet the sonic landscape they paint is more lush and nuanced than ever. Like all great bands around for more than an album or two, they're maturing and pioneering, effortlessly weaving in ideas from unlikely sources to color their songs in ways that seem strange at first, but then obvious upon reflection. This is immediately apparent from the moment the needle drops, moving brusquely between 60's British invasion-style psychedelia and twangy folk melancholy, to jangly barnstormers and songs of dark, bittersweet paranoia effortlessly and naturally. Along the album's path we are treated to brief forays into tragic 50's pop a la Del Shannon, Ennio Morricone on Mars instrumentals, nods to Roger Miller, and sugary, mind-warping harmonic Nuggets. 
+
+Mixing small town sincerity with big city sophistication is no easy feat, yet Milwaukee's Goodnight Loving pulls it off with humble confidence. It's the earnestness, craft and originality of this group that gives them their ability to never disappoint or even 'just' meet expectations. And with all members contributing songs to their already impressive canon, they show no signs of slowing down anytime soon.
+
+<a href="../img/optimized/kevin-basement.jpg" data-lightbox="the_band" data-title="Kevin's Basement">
+<img class="about-page-image full" src="../img/optimized/kevin-basement.jpg " alt="Goodnight Loving in Kevin's Basement"></a>
