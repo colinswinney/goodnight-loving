@@ -1,0 +1,81 @@
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+    padding-bottom:$spacing-unit;
+    border-bottom:1px solid $grey-color-light;
+}
+
+.post-title {
+    font-size: 3em;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+}
+
+.post-content {
+
+    p {
+        &:last-child {
+            margin-bottom:0;
+        }
+    }
+}
+
+
+
+
+.feat-image-footer-link {
+	display:block;
+	width:100%;
+	margin:$spacing-unit * 1.5 auto auto auto;
+	border-top:1px solid $grey-color-light;
+
+	@include media-query ($on-laptop) {
+		border-bottom:1px solid $grey-color-light;
+	}
+
+	&.music-footer-image {
+
+		img {
+			max-width:400px;
+		}
+	}
+
+	img {
+		display: block;
+		width:100%;
+		margin:$spacing-unit auto auto auto;
+		
+		@include media-query ($on-laptop) {
+			margin-bottom: $spacing-unit;
+		}
+	}
+}
+
+// single music
+
+.music-post-iframe {
+    float:right;
+    max-width: 300px;
+    margin-left:$spacing-unit / 2;
+    text-align:center;
+    @extend %clearfix;
+
+    @include media-query($on-palm) {
+        display: block;
+        float: none;
+        margin-left: 0;
+        margin-bottom: $spacing-unit / 2;
+    }
+
+    .more-button {
+        margin-top:$spacing-unit;
+
+        @include media-query ($on-palm) {
+        	float:left;
+        	margin-bottom: $spacing-unit;
+        }
+    }
+}

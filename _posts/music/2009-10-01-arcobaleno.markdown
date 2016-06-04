@@ -8,6 +8,6 @@ image_thumb: /img/thumbs/JPEG/Arcobaleno.jpg
 tracks: [4 & 3, You'll Own My Heart, Sweet Clover, Pinalope, Orphans]
 labels: [Wild Honey]
 format: 12" EP
-embed: '<iframe style="border: 0; width: 350px; height: 307px;" src="https://bandcamp.com/EmbeddedPlayer/album=1023312980/size=large/bgcol=333333/linkcol=FAFAFA/artwork=none/transparent=true/" seamless><a href="http://wildhoneyrecords.bandcamp.com/album/arcobaleno">Arcobaleno by The Goodnight Loving</a></iframe>'
+embed: '<iframe style="border: 0; width: 300px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=1023312980/size=large/bgcol=333333/linkcol=FAF9F6/artwork=none/transparent=true/" seamless><a href="http://wildhoneyrecords.bandcamp.com/album/arcobaleno">Arcobaleno by The Goodnight Loving</a></iframe>'
 buy_link: http://wildhoneyrecords.bandcamp.com/album/arcobaleno
 ---

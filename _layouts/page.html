@@ -11,4 +11,8 @@ layout: default
     {{ content }}
   </div>
 
+  <a href="{{ page.image | prepend: site.baseurl }}" data-lightbox="the_band" data-title="{{ page.title }}" class="feat-image-footer-link">
+	<img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }} Cover" class="post-feat-image">
+  </a>
+
 </article>

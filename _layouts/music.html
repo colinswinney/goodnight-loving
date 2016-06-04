@@ -23,11 +23,11 @@ layout: default
 
     {% if page.youtube %}
     <div class="music-post-iframe">
-	    <div class="video-container">
-	    	<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
-	    </div>
+    <div class="video-container">
+    	<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
+    </div>
 
-	    <a href="{{ page.buy_link }}" class="more-button" target="_blank">Buy Now</a>
+    <a href="{{ page.buy_link }}" class="more-button" target="_blank">Buy Now</a>
     </div>
     {% endif %}
 
@@ -66,7 +66,8 @@ layout: default
 	
   </div>
 
-  <a href="..{{ page.image }}" data-lightbox="the_band" data-title="{{ page.title }}" class="photo-link footer-photo">
-  <img src="..{{ page.image }}" alt="{{ page.title }} Cover" class="music-post-feat-image"></a>
+  <a href="{{ page.image | prepend: site.baseurl }}" data-lightbox="the_band" data-title="{{ page.title }}" class="feat-image-footer-link music-footer-image">
+	<img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }} Cover" class="post-feat-image">
+  </a>
 
 </article>

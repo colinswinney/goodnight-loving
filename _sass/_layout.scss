@@ -225,9 +225,18 @@
     width:         calc(40% - (#{$spacing-unit} / 2));
 }
 .footer-bottom {
+    font-size: $small-font-size;
     text-align: center;
     margin-top: $spacing-unit;
-    font-size: $base-font-size * 0.75;
+
+    h2 {
+        margin-bottom:$spacing-unit / 6;
+    }
+
+    #copyright {
+        margin-top: $spacing-unit;
+        font-size: $base-font-size * 0.75;
+    }
 }
 
 @include media-query($on-laptop) {
@@ -338,30 +347,7 @@
 
 
 
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-    padding-bottom:$spacing-unit;
-    border-bottom:1px solid $grey-color-light;
-}
 
-.post-title {
-    font-size: 3em;
-    text-align: center;
-    line-height: 1;
-    margin: 0;
-}
-
-.post-content {
-
-    p {
-        &:last-child {
-            margin-bottom:0;
-        }
-    }
-}
 
 
 
