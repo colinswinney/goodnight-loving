@@ -1,7 +1,7 @@
 <!-- image underlay -->
 <div class="header-underlay" style="
 {% if page.image %}
-    background-image:url('{{ site.baseurl }}/{{ page.image }}');
+    background-image:url('{{ page.image | prepend: site.baseurl }}');
 {% endif %}
 {% if page.background_position %}
     background-position: {{ page.background_position }};

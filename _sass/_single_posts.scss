@@ -2,7 +2,7 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit * 1.5;
     padding-bottom:$spacing-unit;
     border-bottom:1px solid $grey-color-light;
 }
@@ -17,6 +17,9 @@
 .post-content {
 
     p {
+        line-height: 2;
+        margin-bottom:$spacing-unit;
+
         &:last-child {
             margin-bottom:0;
         }
@@ -55,6 +58,12 @@
 }
 
 // single music
+.music-content {
+    p {
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+}
 
 .music-post-iframe {
     float:right;
@@ -75,7 +84,45 @@
 
         @include media-query ($on-palm) {
         	float:left;
-        	margin-bottom: $spacing-unit;
+        }
+    }
+
+    &.youtube-iframe {
+        width: 300px;
+
+        @include media-query ($on-palm) {
+            width:100%;
+            max-width: none;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+// SINGLE POST SPECIFIC
+
+// these days
+.these-days-wrapper {
+    section {
+        overflow: auto;
+        padding:15px 0 30px;
+
+        ul {
+            margin-left:20px;
+        }
+
+        img {
+            float:right;
+
+            @include media-query ($on-palm) {
+                max-width:100px;
+            }
         }
     }
 }

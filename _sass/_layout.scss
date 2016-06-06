@@ -5,7 +5,7 @@
 .header-underlay {
     position:absolute;
     background-color:black;
-    background-image:url('../img/optimized/andys-house-1200.jpg');
+    background-image:url('../img/optimized/vertical-house-bw.jpg');
     min-height: 692px;
     width:100%;
     top:0;
@@ -52,7 +52,7 @@
         transform: translate(0, -50%);
         width:94%;
         margin:auto 3%;
-        text-shadow: -1px 1px 1px rgba($text-color, 1), -1px 0px 30px rgba($brand-blue-dark, 0.8);
+        text-shadow: -1px 1px 1px rgba($text-color, 1), -1px 0px 30px rgba($brand-blue-dark, 0.9);
 
         @include media-query ($on-palm) {
             font-size: 3.5em;
@@ -216,13 +216,13 @@
 }
 
 .footer-col-2 {
-    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
-    width:         calc(25% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
-    width:         calc(40% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 .footer-bottom {
     font-size: $small-font-size;

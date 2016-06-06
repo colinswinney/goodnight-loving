@@ -77,7 +77,13 @@
 
 // BLOG POST LIST
 .blog-post-list {
+    margin-top: -$spacing-unit / 2;
     margin-bottom: -$spacing-unit * 1.5;
+
+    p {
+        margin-bottom: $spacing-unit / 2 !important;
+        line-height: $base-line-height !important;
+    }
 
     @include media-query ($on-palm) {
         .post-link {
@@ -106,10 +112,6 @@
             margin-bottom: $spacing-unit / 2;
             display: block;
             text-align: left;
-        }
-
-        p {
-            margin-bottom: $spacing-unit / 2;
         }
 
         h2 {
@@ -158,7 +160,7 @@
 
 
 // MUSIC POST LIST
-.music-post-list {
+.music-post-list, .video-post-list {
     
     > li {
         width:150px;
@@ -211,4 +213,53 @@
         }
     }
 
+}
+
+.video-post-list {
+
+    > li {
+        width:180px;
+        margin:0 $spacing-unit;
+        vertical-align: top;
+        min-height: 240px;
+
+        .post-list-image {
+            display: inline-block;
+            height: 135px;
+            width:180px;
+            background-size:cover;
+            background-position:50% 50%;
+
+            &:hover {
+                box-shadow:0px 0px 30px $brand-blue-dark;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+// PHOTOS
+
+.photo-ul {
+    margin:0;
+    display:block;
+    text-align: center;
+    list-style: none;
+    
+    li {
+        display:inline-block;
+        margin:30px auto;
+        width:175px;
+
+        img {
+            display:block;
+            margin:auto;
+        }
+    }
 }

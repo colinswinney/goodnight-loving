@@ -2,7 +2,7 @@
 layout: page
 title: Music
 permalink: /music/
-image: /img/optimized/gnl_stairs_dogs.jpg
+image: /img/optimized/vertical-house-crowd.jpg
 weight: 2
 ---
 
@@ -12,7 +12,6 @@ weight: 2
 	<li>
     <span class="post-meta">{{ post.date | date: "%b %Y" }}</span>
     <a class="post-list-image" href="{{ post.url | prepend: site.baseurl }}" style="background-image:url('{{ post.image | prepend: site.baseurl }}')">
-      <!-- <img class="home-blog-image" src="{{ post.image_thumb | prepend: site.baseurl }}" alt="{{ post.title }}"> -->
     </a>
     <span class="post-meta">{{ post.format }}</span>
     <h2 class="post-link">

@@ -10,7 +10,6 @@ weight: 100
 {% for post in site.categories.blog limit:3 %}
   <li>
     <a class="post-list-image blog-post-list-image" href="{{ post.url | prepend: site.baseurl }}" style="background-image:url('{{ post.image | prepend: site.baseurl }}')">
-      <!-- <img class="home-blog-image" src="{{ post.image_thumb | prepend: site.baseurl }}" alt="{{ post.title }}"> -->
     </a>
     <h2 class="post-link">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
