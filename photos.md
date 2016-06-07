@@ -19,7 +19,7 @@ band_photos:
     title: Band on a Log
   - path: gnl_funny_guys.jpg
     title: Funny Guys
-  - path: gnl_hires_3.jpg
+  - path: trail_walkers.jpg
     title: Trail Walkin'
   - path: andyh-ryan.jpg
     title: Rhythm Rockers
