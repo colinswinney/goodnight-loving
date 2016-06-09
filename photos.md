@@ -19,7 +19,7 @@ band_photos:
     title: Band on a Log
   - path: gnl_funny_guys.jpg
     title: Funny Guys
-  - path: trail_walkers.jpg
+  - path: dogs_on_trail.jpg
     title: Trail Walkin'
   - path: andyh-ryan.jpg
     title: Rhythm Rockers
@@ -66,7 +66,7 @@ band_photos:
   - path: vertical-house-ryan.jpg
     title: Drummin'
   - path: vertical-house-tweedcaster.jpg
-    title: Goodnight Loving Militia
+    title: Vertical House Live!
   - path: zach-all-his-glory.jpg
     title: Zach in All His Glory, Vancouver, BC Radio
   - path: zach-colin-afro.jpg
