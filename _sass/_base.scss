@@ -244,7 +244,31 @@ pre {
 
         }
     }
+
+    &.icon-spotify {
+        > svg {
+            width:45px;
+            height:45px;
+            vertical-align: top;
+
+            path {
+                fill:#23CF5F;
+            }
+        }
+
+        &:hover {
+            > svg {
+
+                path {
+                    fill: $brand-blue;
+                }
+
+            }
+        }
+    }
 }
+
+
 
 
 

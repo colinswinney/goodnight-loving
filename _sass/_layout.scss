@@ -205,8 +205,8 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(34% - (#{$spacing-unit} / 2));
+    width:         calc(34% - (#{$spacing-unit} / 2));
     text-align: left;
     padding-left: -$spacing-unit / 2;
 
@@ -216,13 +216,14 @@
 }
 
 .footer-col-2 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(32% - (#{$spacing-unit} / 2));
+    width:         calc(32% - (#{$spacing-unit} / 2));
+    text-align:center;
 }
 
 .footer-col-3 {
-    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(34% - (#{$spacing-unit} / 2));
+    width:         calc(34% - (#{$spacing-unit} / 2));
 }
 .footer-bottom {
     font-size: $small-font-size;
