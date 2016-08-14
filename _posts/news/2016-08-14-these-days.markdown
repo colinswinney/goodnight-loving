@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "These Days"
-date:   2016-05-22 03:51:38 -0700
+date:   2016-08-14 03:51:38 -0700
 categories: blog
 image: /img/optimized/northwoods.jpg
 image_thumb: /img/thumbs/northwoods.jpg

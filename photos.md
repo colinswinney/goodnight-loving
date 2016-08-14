@@ -7,10 +7,10 @@ weight: 4
 band_photos:
   - path: circle-a-trio.jpg
     title: Circle A, Milwaukee, WI
-  - path: caves-andyk-colin.jpg
-    title: Huntsville Caves
   - path: caves-group.jpg
     title: Huntsville Cave God
+  - path: caves-andyk-colin.jpg
+    title: Huntsville Caves
   - path: colin-luckenbach.jpg
     title: Luckenbach, TX Locals
   - path: early-mad-planet.jpg

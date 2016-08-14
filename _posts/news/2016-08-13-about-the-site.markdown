@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Little About the Site"
-date:   2016-05-13 03:51:38 -0700
+date:   2016-08-13 03:51:38 -0700
 categories: blog
 image: /img/optimized/gnl_mojo_studio.jpg
 image_thumb: /img/thumbs/gnl_mojo_studio.jpg
