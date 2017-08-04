@@ -10,8 +10,8 @@ title: The Goodnight Loving
 email: colinjswinney@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A website built half a decade too late for a long broken up band.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://colinswinney.github.io/goodnight-loving" # the base hostname & protocol for your site
+baseurl: "/goodnight-loving" # the subpath of your site, e.g. /blog
+url: "http://colinswinney.github.io" # the base hostname & protocol for your site
 twitter_username: ColinJSwinney
 github_username:  colinswinney
 permalink: :categories/:title
